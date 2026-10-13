@@ -1,0 +1,10 @@
+# Build output (MSVC / GCC)
+*.exe
+*.obj
+*.o
+*.ilk
+*.pdb
+*.idb
+*.exp
+*.lib
+build/
