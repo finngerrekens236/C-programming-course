@@ -1,0 +1,89 @@
+{
+  "id": "8jLOx1hD3_o",
+  "title": "C++ Programming Course - Beginner to Advanced",
+  "channel": "freeCodeCamp.org",
+  "uploader": "freeCodeCamp.org",
+  "webpage_url": "https://www.youtube.com/watch?v=8jLOx1hD3_o",
+  "upload_date": "20220217",
+  "duration": 112049,
+  "duration_string": "31:07:29",
+  "description": "Learn modern C++ 20 programming in this comprehensive course.\n\n💻 Source code: https://github.com/rutura/The-C-20-Masterclass-Source-Code\n\n✏️ Course developed by Daniel Gakwaya. Check out his YouTube channel: https://www.youtube.com/channel/UCUYUFiuJ5XZ3JYtbq5dXRKQ\n🐦 Twitter: https://twitter.com/learnqtguide\n🔗 Want more from Daniel? https://www.learnqt.guide/udemy-discounted-9/\n🔗 Join Daniel's discord server for support: https://discord.com/invite/PcATcraESW\n\n⭐️ Course Contents ⭐\n(0:00:00) Introduction\n\n(0:04:32) Chapter 1: Setting up the tools\nTools\nInstalling C++ Compilers on Windows\nInstalling VS Code on Windows\nConfiguring Visual Studio Code for C++ on Windows\nInstalling C++ Compilers on Linux\nInstalling Visual Studio Code on Linux\nConfiguring Visual Studio Code for C++ on Linux\nInstalling C++ Compilers on MacOs\nInstalling Visual Studio Code on MacOs\nConfiguring Visual Studio Code for C++ on MacOs\nOnline Compilers\n\n(1:43:01) Chapter 2: Diving in\nYour First C++ Program\nComments\nErrors and Warnings\nStatements and Functions\nData input and output\nC++ Program Execution Model\nC++ core language Vs Standard library Vs STL\n\n(3:00:47) Chapter 3: Variables and data types\nVariables and data types Introduction\nNumber Systems\nInteger types : Decimals and Integers\nInteger Modifiers\nFractional Numbers\nBooleans\nCharacters And Text\nAuto\nAssignments\nVariables and data types summary\n\n(4:46:46) Chapter 4: Operations on Data\nIntroduction on Data operations\nBasic Operations\nPrecedence and Associativity\nPrefix/Postfix Increment & Decrement\nCompound Assignment Operators\nRelational Operators\nLogical Operators\nOutput formatting\nNumeric Limits\nMath Functions\nWeird Integral Types\nData Operations Summary\n\n(7:01:58) Chapter 5: Flow Control\nFlow Control Introduction\nIf Statements\nElse If\nSwitch\nTernary Operators\nFlow Control Summary\n\n(7:53:49) Chapter 6: Loops\nLoops Introduction\nFor Loop\nWhile Loop\nDo While Loop\n\n(8:47:08) Chapter 7: Arrays\nIntroduction to Arrays\nDeclaring and using arrays\nSize of an array\nArrays of characters\nArray Bounds\n\n(9:53:23) Chapter 8: Pointers\nIntroduction to Pointers\nDeclaring and using pointers\nPointer to char\nProgram Memory Map Revisited\nDynamic Memory Allocation\nDangling Pointers\nWhen new Fails\nNull Pointer Safety\nMemory Leaks\nDynamically allocated arrays\n\n(12:11:04) Chapter 9: References\nIntroduction to References\nDeclaring and using references\nComparing pointers and references\nReferences and const\n\n(12:44:29) Chapter 10: Character Manipulation and Strings\nIntroduction to Strings\nCharacter Manipulation\nC-string manipulation\nC-String concatenation and copy\nIntroducing std::string\nDeclaring and using std::string\n\n(14:12:47) Chapter 11: Functions\nThe One Definition Rule\nFirst Hand on C++ Functions\nFunction Declaration and Function Definitions\nMultiple Files - Compilation Model Revisited\nPass by value\nPass by pointer\nPass by reference\n\n(16:03:20) Chapter 12: Getting Things out of functions\nIntroduction to getting things out of functions\nInput and output parameters\nReturning from functions by value\n\n(16:32:35) Chapter 13: Function Overloading\nFunction Overloading Introduction\nOverloading with different parameters\n\n(16:49:00) Chapter 14: Lambda functions\nIntro to Lambda Functions\nDeclaring and using lambda functions\nCapture lists\nCapture all in context\nSummary\n\n(17:40:08) Chapter 15: Function Templates\nIntro to function templates\nTrying out function templates\nTemplate type deduction and explicit arguments\nTemplate parameters by reference\nTemplate specialization\n\n(19:04:31) Chapter 16: C++20 Concepts Crash course\nIntro to C++20 Concepts\nUsing C++20 Concepts\nBuilding your own C++20 Concepts\nZooming in on the requires clause\nCombining C++20 Concepts\nC++20 Concepts and auto\n\n(20:15:40) Chapter 17: Classes\nIntro to classes\nYour First Class\nC++ Constructors\nDefaulted constructors\nSetters and Getters\nClass Across Multiple Files\nArrow pointer call notation\nDestructors\nOrder of Constructor Destructor Calls\nThe this Pointer\nstruct\nSize of objects\n\n(22:52:43) Chapter 18: Inheritance\nIntroduction to Inheritance\nFirst try on Inheritance\nProtected members\nBase class access specifiers : Zooming in\nClosing in on Private Inheritance\nResurrecting Members Back in Context\nDefault Constructors with Inheritance\nCustom Constructors With Inheritance\nCopy Constructors with Inheritance\nInheriting Base Constructors\nInheritance and Destructors\nReused Symbols in Inheritance\n\n(26:21:03) Chapter 19: Polymorphism\nIntroduction to Polymorphism\nStatic Binding with Inheritance\nDynamic binding with virtual functions\nSize of polymorphic objects and slicing\nPolymorphic objects stored in collections (array)\nOverride\nOverloading, overriding and function hiding\nInheritance and Polymorphism at different levels\nInheritance and polymorphism with static members\nFinal\nVirtual functions with default arguments\nVirtual Destructors\nDynamic casts\nPolymorphic Functions and Destructors\nPure virtual functions and abstract classes\nAbstract Classes as Interfaces",
+  "chapters": [
+    {
+      "start_time": 0,
+      "title": "Introduction",
+      "end_time": 15
+    },
+    {
+      "start_time": 15,
+      "title": "Course Overview",
+      "end_time": 272
+    },
+    {
+      "start_time": 272,
+      "title": "Development Tools",
+      "end_time": 690
+    },
+    {
+      "start_time": 690,
+      "title": "C compiler support",
+      "end_time": 857
+    },
+    {
+      "start_time": 857,
+      "title": "Installing the compilers",
+      "end_time": 1232
+    },
+    {
+      "start_time": 1232,
+      "title": "Installing Visual Studio",
+      "end_time": 1479
+    },
+    {
+      "start_time": 1479,
+      "title": "Downloading Visual Studio Code",
+      "end_time": 1718
+    },
+    {
+      "start_time": 1718,
+      "title": "Setting up a Template Project",
+      "end_time": 2095
+    },
+    {
+      "start_time": 2095,
+      "title": "Running a task",
+      "end_time": 2349
+    },
+    {
+      "start_time": 2349,
+      "title": "Modify taskjson file",
+      "end_time": 2435
+    },
+    {
+      "start_time": 2435,
+      "title": "Remove mainexe file",
+      "end_time": 2630
+    },
+    {
+      "start_time": 2630,
+      "title": "Use two compilers",
+      "end_time": 2722
+    },
+    {
+      "start_time": 2722,
+      "title": "Configure compiler from Microsoft",
+      "end_time": 2918
+    },
+    {
+      "start_time": 2918,
+      "title": "Change project location",
+      "end_time": 3092
+    },
+    {
+      "start_time": 3092,
+      "title": "Build with MSVC",
+      "end_time": 112049
+    }
+  ],
+  "tags": []
+}
