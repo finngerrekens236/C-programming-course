@@ -1,0 +1,16 @@
+{
+	"terminal.integrated.profiles.windows": {
+		"PowerShell (MSVC)": {
+			"path": "powershell.exe",
+			"args": [
+				"-NoExit",
+				"-ExecutionPolicy",
+				"Bypass",
+				"-File",
+				"${workspaceFolder}\\scripts\\dev-shell.ps1"
+			],
+			"icon": "terminal-powershell"
+		}
+	},
+	"terminal.integrated.defaultProfile.windows": "PowerShell (MSVC)"
+}

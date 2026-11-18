@@ -7,15 +7,11 @@
 
         int lengte;
 
-
         std::cerr << "test" << std::endl;
 
         std::cout << "voer je lengte in:" << std::endl;
 
         std::cin >> lengte;
-
-
-
 
         std::cout << "je lengte is: " << lengte << std::endl;
         /*
