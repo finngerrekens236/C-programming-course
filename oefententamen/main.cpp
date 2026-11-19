@@ -1,86 +1,92 @@
     #include <iostream>
 
+
+
+    
+
     // int main() {
 
-        // //step 1
+    //     //step 1
 
-        // double numerators [5] {};
-        // double denominators [5] {};
+    //     double numerators [5] {};
+    //     double denominators [5] {};
 
-        // //step 2
+    //     //step 2
 
-        // double denominator;
-        // for(int i{0} ; i < 5 ;++i){
-        //     denominator=0;
-        //     std::cout << "Please type in numerator:" << i+1 << std::endl;
-        //     std::cin >> numerators[i];
+    //     double denominator;
+    //     for(int i{0} ; i < 5 ;++i){
+    //         denominator=0;
+    //         std::cout << "Please type in numerator:" << i+1 << std::endl;
+    //         std::cin >> numerators[i];
 
-        //     std::cout << "Please type in denominator:" << i+1 << std::endl;
+    //         std::cout << "Please type in denominator:" << i+1 << std::endl;
 
-        //     std::cin >> denominator;
-        //     while (denominator==0){
+    //         std::cin >> denominator;
+    //         while (denominator==0){
 
-        //         std::cout << "denominator cant be 0" <<std::endl;
+    //             std::cout << "denominator cant be 0" <<std::endl;
 
-        //         std::cout << "Please type in denominator:" << i+1 << std::endl;
+    //             std::cout << "Please type in denominator:" << i+1 << std::endl;
     
-        //         std::cin >> denominator;
-        //     }
+    //             std::cin >> denominator;
+    //         }
 
-        //     denominators[i]=denominator;
-        // }
-
-
+    //         denominators[i]=denominator;
+    //     }
 
 
 
 
 
-        // // step 3
-
-        // int arraySize;
-
-        // std::cout << "Please type your desired array size:" << std::endl;
-        // std::cin >> arraySize;
-        // while (arraySize <=0){
-
-        //     std::cout << "array size must be greater than 0. please enter desired array size" << std::endl;
-        //     std::cin >> arraySize;
-        // }
 
 
+    //     // step 3
+
+    //     int arraySize;
+
+    //     std::cout << "Please type your desired array size:" << std::endl;
+    //     std::cin >> arraySize;
+    //     while (arraySize <=0){
+
+    //         std::cout << "array size must be greater than 0. please enter desired array size" << std::endl;
+    //         std::cin >> arraySize;
+    //     }
 
 
-        // double *numerators { new double  [arraySize] {}};
-        // double *denominators { new double [arraySize] {}};
 
 
-        // double denominator;
-        // for(int i{0} ; i < arraySize ;++i){
-        //     denominator=0;
-        //     std::cout << "Please type in numerator:" << i+1 << std::endl;
-        //     std::cin >> numerators[i];
+    //     double *numerators { new double  [arraySize] {}};
+    //     double *denominators { new double [arraySize] {}};
 
-        //     std::cout << "Please type in denominator:" << i+1 << std::endl;
 
-        //     std::cin >> denominator;
-        //     while (denominator==0){
+    //     double denominator;
+    //     for(int i{0} ; i < arraySize ;++i){
+    //         denominator=0;
+    //         std::cout << "Please type in numerator:" << i+1 << std::endl;
+    //         std::cin >> numerators[i];
 
-        //         std::cout << "denominator cant be 0" <<std::endl;
+    //         std::cout << "Please type in denominator:" << i+1 << std::endl;
 
-        //         std::cout << "Please type in denominator:" << i+1 << std::endl;
+    //         std::cin >> denominator;
+    //         while (denominator==0){
+
+    //             std::cout << "denominator cant be 0" <<std::endl;
+
+    //             std::cout << "Please type in denominator:" << i+1 << std::endl;
     
-        //         std::cin >> denominator;
-        //     }
+    //             std::cin >> denominator;
+    //         }
 
-        //     denominators[i]=denominator;
-        // }
+    //         denominators[i]=denominator;
+    //     }
         
-        // delete [] numerators;
-        // numerators = nullptr;
+    //     delete [] numerators;
+    //     numerators = nullptr;
 
-        // delete [] denominators;
-        // denominators = nullptr;
+    //     delete [] denominators;
+    //     denominators = nullptr;
+
+    // }
 
 
 
