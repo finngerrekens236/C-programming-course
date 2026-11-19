@@ -244,7 +244,7 @@
     // step 7
 
 
-    class fraction {
+    class Fraction {
 
         public:
        
@@ -253,7 +253,11 @@
         }
 
         void setDenominator(double den){
-            if(den != 0){
+
+            if (den == 0){
+                std::cout << "setting Denominator Faild Denominator cant be 0" << std::endl;
+                
+            }else{
             denominator = den;
             }
         }
@@ -273,7 +277,7 @@
 
 
     //function reading of one fraction number 
-    void readFraction(fraction& frac);
+    void readFraction(Fraction& frac);
 
 
 
@@ -293,7 +297,7 @@
         }
 
 
-        fraction *fractions { new fraction  [arraySize] {}};
+        Fraction *fractions { new Fraction  [arraySize] {}};
 
         for(int i{0} ; i < arraySize ;++i){
 
@@ -318,7 +322,7 @@
        
     }
 
-    void readFraction(fraction& frac){
+    void readFraction(Fraction& frac){
 
         
         std::cout << "Please type in numerator:" << std::endl;
