@@ -1,0 +1,65 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "build with GCC",
+			"command": "g++",
+			"args": [
+				"-g",
+				"-std=c++20",
+				"${workspaceFolder}\\*.cpp",
+				"-o",
+				"${fileDirname}\\rooster.exe"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "compiler: g++ (uit PATH, bv. MinGW-w64)"
+		},
+		{
+			"type": "cppbuild",
+			"label": "build with Clang",
+			"command": "clang++",
+			"args": [
+				"-g",
+				"-std=c++20",
+				"${workspaceFolder}\\*.cpp",
+				"-o",
+				"${fileDirname}\\rooster.exe"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "compiler: clang++ (uit PATH, bv. LLVM)"
+		},
+		{
+			"type": "process",
+			"label": "Build with MSVC",
+			"command": "${workspaceFolder}\\scripts\\build-msvc.cmd",
+			"args": [
+				"${fileDirname}\\rooster.exe",
+				"${workspaceFolder}\\*.cpp"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "compiler: cl.exe (laadt zelf vcvars64 via vswhere)"
+		}
+	]
+}
