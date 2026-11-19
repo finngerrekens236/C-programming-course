@@ -8,6 +8,8 @@ Mijn oefenprojecten en studieaantekeningen bij de cursus
 | Map | Inhoud |
 |---|---|
 | `3.2 firstCppProgram`, `3.3 comments`, … | één oefenproject per les; het nummer volgt de lesnummering van de cursus |
+| [`midtermexam/`](midtermexam/) | **OOP-midterm 19-11-2026** (complexe getallen): stap 1–7 gedaan; stap 8–12 voor de volgende keer staan in de [README daar](midtermexam/README.md) |
+| [`oefententamen/`](oefententamen/) | oefententamen ter voorbereiding op de midterm |
 | [`aantekeningen/`](aantekeningen/) | uitgebreide Nederlandstalige aantekeningen van de hele cursus — begin bij de [README daar](aantekeningen/README.md) |
 
 ### Welke les hoort bij welk hoofdstuk van de aantekeningen?
