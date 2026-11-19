@@ -2,7 +2,6 @@
 
 
 
-    
 
     // int main() {
 
@@ -33,14 +32,13 @@
 
     //         denominators[i]=denominator;
     //     }
+    // }
 
 
 
 
-
-
-
-    //     // step 3
+    // // step 3
+    // int main(){
 
     //     int arraySize;
 
